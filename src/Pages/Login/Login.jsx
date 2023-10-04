@@ -22,7 +22,7 @@ const Login = () => {
                 Navigate(location?.state ? location.state : "/")
             })
             .catch(error => {
-                console.error(error)
+                console.error(error.message)
             })
 
     }
